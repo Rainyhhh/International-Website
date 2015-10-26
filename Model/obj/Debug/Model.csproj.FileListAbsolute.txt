@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\CodematicDemo\Model\bin\Debug\Interwebsite.Model.dll
+C:\Users\Administrator\Desktop\CodematicDemo\Model\bin\Debug\Interwebsite.Model.pdb
+C:\Users\Administrator\Desktop\CodematicDemo\Model\obj\Debug\Interwebsite.Model.dll
+C:\Users\Administrator\Desktop\CodematicDemo\Model\obj\Debug\Interwebsite.Model.pdb
+C:\Users\Administrator\Desktop\项目源文件\interwebsite\Model\bin\Debug\Interwebsite.Model.dll
+C:\Users\Administrator\Desktop\项目源文件\interwebsite\Model\bin\Debug\Interwebsite.Model.pdb
+C:\Users\Administrator\Desktop\项目源文件\interwebsite\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\项目源文件\interwebsite\Model\obj\Debug\Interwebsite.Model.dll
+C:\Users\Administrator\Desktop\项目源文件\interwebsite\Model\obj\Debug\Interwebsite.Model.pdb
+C:\Inetpub\wwwroot\sdfs\interwebsite\Model\bin\Debug\Interwebsite.Model.dll
+C:\Inetpub\wwwroot\sdfs\interwebsite\Model\bin\Debug\Interwebsite.Model.pdb
+C:\Inetpub\wwwroot\sdfs\interwebsite\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Inetpub\wwwroot\sdfs\interwebsite\Model\obj\Debug\Interwebsite.Model.dll
+C:\Inetpub\wwwroot\sdfs\interwebsite\Model\obj\Debug\Interwebsite.Model.pdb

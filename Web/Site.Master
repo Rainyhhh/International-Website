@@ -1,0 +1,208 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Interwebsite.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>厦门大学软件学院硕士交流项目</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<link rel="stylesheet" href="css/foundation-responsive.css"/>	
+	<link rel="stylesheet" href="css/style-custom.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/layerslider.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/superfish.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/fancybox.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/jquery.fancybox-thumbs.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all"/>
+	<script type="text/javascript" async="" src="js/ga.js">
+	</script>
+	<script type="text/javascript" src="js/jquery.js">
+	</script>
+	<style type="text/css">
+	</style>
+	<script type="text/javascript" src="js/layerslider.kreaturamedia.jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-easing-1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+	<script type="text/javascript" src="js/comment-reply.js"></script>
+	<script type="text/javascript">
+	    var _gaq = _gaq || [];
+	    _gaq.push(['_setAccount', 'UA-28008475-11']);
+	    _gaq.push(['_trackPageview']);
+	    (function () {
+	        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	    })();
+
+	</script>	
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>		
+	<link rel="stylesheet" href="css/skin.css" type="text/css"/>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="home page page-id-9 page-template-default">
+<form runat="server" id="form1">
+    <div class="body-outer-wrapper">
+		<div class="body-wrapper boxed-style">		
+		<div class="top-navigation-wrapper boxed-style">
+		</div>
+			<div class="header-wrapper main" style="background: white;">
+				<div class="logo-wrapper" style="margin-left:40px;">
+					<h1><a href="#"><img src="img/default.png" alt="default-logo"/></a></h1>
+				</div>
+                <div class="logo-right-text" style="margin-top:0px;">
+                    <div class="logo-right-text-content" style="margin-top:10px;margin-right:20px;margin-bottom:10px;">
+                        <img src="img/register.png" style="width:20px;margin-left:0px;" />
+                        <a style="font-size: 12pt; color: #aaa;font-family:微软雅黑;" href="background/login.aspx">管理登录<span class="sub-title">
+                                    Login
+                                  </span></a>
+                    </div>
+                </div>
+				<div class="clear"></div>
+        <div class="gdl-navigation-wrapper">
+						<div class="responsive-menu-wrapper">
+							<select id="menu-main" class="menu dropdown-menu">
+							<option value="" class="blank">– Main Menu –</option>
+							<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2471 menu-item-depth-0" value="index.aspx">首页</option>	
+							<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2471 menu-item-depth-0" value="apply.aspx">在线报名</option>	
+							<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2526 menu-item-depth-0" value="projects.aspx">合作项目</option>	
+							<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2527 menu-item-depth-0" value="announcement.aspx">公告新闻</option>	
+							<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2499 menu-item-depth-0" value="downloads.aspx">文档下载</option>
+                            <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2499 menu-item-depth-0" value="contact.aspx">联系我们</option>		
+							</select>
+						</div>
+          <div class="clear">
+          </div>
+          <div class="navigation-wrapper">
+            <div id="main-superfish-wrapper" class="menu-wrapper">
+              <ul id="menu-main-1" class="sf-menu sf-js-enabled">
+                <li id="menu-item-2466" style="width: 130px;text-align: center;margin-left:60px;"  class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-2466">
+                  <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="index.aspx" ToolTip="homepage">
+                    首页
+                  </asp:HyperLink>
+                </li>
+                <li id="menu-item-2471" style="width: 130px;text-align: center;" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2471">
+                  <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="apply.aspx" ToolTip="register">
+                    在线报名
+                  </asp:HyperLink>
+                </li>
+                <li id="menu-item-2526" style="width: 130px;text-align: center;"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2526">
+                  <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="projects.aspx" ToolTip="projects" >
+                    合作项目
+                  </asp:HyperLink>
+                </li>
+                <li id="menu-item-2527" style="width: 130px;text-align: center;"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2527">
+                  <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="announcement.aspx" ToolTip="announcements">
+                    公告新闻
+                  </asp:HyperLink>
+                </li>
+                <li id="menu-item-2499" style="width: 130px;text-align: center;"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2499">
+                  <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="downloads.aspx" ToolTip="download">
+                    文档下载
+                  </asp:HyperLink>
+                </li>
+                <li id="menu-item-2472" style="width: 130px;text-align: center;"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2472">
+                  <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="contact.aspx" ToolTip="contact us">
+                    联系我们
+                  </asp:HyperLink>
+                </li>
+              </ul>
+            </div>
+            <div class="clear">
+            </div>
+          </div>
+          <div class="clear">
+          </div>
+        </div>
+					<div class="content-wrapper container main">			
+						<div id="post-122" class="post-122 page type-page status-publish hentry">
+							<div class="page-wrapper single-page single-sidebar right-sidebar">
+								<div class="row gdl-page-row-wrapper">
+								    <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>	
+								<div class="four columns mb0 gdl-right-sidebar">
+								    <div class="gdl-sidebar-wrapper gdl-border-y left" style="min-height: 400px;">
+								        <div class="sidebar-wrapper" style="padding-top:20px;">
+								            <div class="custom-sidebar">
+								            <img src="img/latest.png" style="width:35px;margin-left:0px;">
+								            <h2 class="column-service-title" style="position:relative;margin-top:-34px;margin-left:50px;font-size:15pt;">
+                                                最近更新<span class="sub-title">Latest</span>
+                                            </h2>
+								        <ul class="gdl-accordion">
+									    <li class="">
+									        <h2 class="accordion-title">
+									            新闻公告<span class="sub-title">Announcements</span>
+									        </h2>
+									        <div class="accordion-content" style="display: none;">
+                                                <asp:repeater id="announce" runat="server">
+                                                    <ItemTemplate>
+                                                    <ul style="margin-left:10px;list-style:none;border-top-width:0px;">
+                                                    <li class="cat-item cat-item-3">
+                                                        <span><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# "~/announcementDetail.aspx?id=" + DataBinder.Eval(Container.DataItem,"id") %>' Text='<%#DataBinder.Eval(Container.DataItem, "AnnouncementName").ToString().Length>10?DataBinder.Eval(Container.DataItem, "AnnouncementName").ToString().Substring(0,10)+"...":DataBinder.Eval(Container.DataItem, "AnnouncementName")%>'></asp:HyperLink></span>
+                                                    </li>
+                                                    </ul>
+                                                    </ItemTemplate>
+                                                </asp:repeater>
+									        </div>
+									    </li>
+									    <li class="active">
+									        <h2 class="accordion-title">
+									            文档下载<span class="sub-title">Download</span>
+									        </h2>
+									        <div class="accordion-content" style="display: block;">
+									        	<asp:repeater id="attach" runat="server">
+                                                    <ItemTemplate>
+                                                    <ul style="margin-left:10px;list-style:none;border-top-width:0px;">
+                                                    <li>
+                                                        <span><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/downloads.aspx" Text='<%#DataBinder.Eval(Container.DataItem, "attachmentName").ToString().Length>10?DataBinder.Eval(Container.DataItem, "attachmentName").ToString().Substring(0,10)+"...":DataBinder.Eval(Container.DataItem, "attachmentName")%>'></asp:HyperLink></span>
+                                                    </li>
+                                                    </ul>
+                                                    </ItemTemplate>
+                                                </asp:repeater>
+									        </div>
+									    </li>
+									    <li class="">
+									        <h2 class="accordion-title">
+                                                合作项目<span class="sub-title">Projects</span>		            
+									        </h2>
+									        <div class="accordion-content" style="display: none;">
+									        	<asp:repeater id="project" runat="server">
+                                                    <ItemTemplate>
+                                                    <ul style="margin-left:10px;list-style:none;border-top-width:0px;">
+                                                    <li>
+                                                        <span><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# "~/projectDetail.aspx?id=" + DataBinder.Eval(Container.DataItem,"id") %>' Text='<%#DataBinder.Eval(Container.DataItem, "projectName").ToString().Length>10?DataBinder.Eval(Container.DataItem, "projectName").ToString().Substring(0,10)+"...":DataBinder.Eval(Container.DataItem, "projectName")%>'></asp:HyperLink></span>                                                        
+                                                    </li>
+                                                    </ul>
+                                                    </ItemTemplate>
+                                                </asp:repeater>
+									        </div>
+									    </li>
+									</ul>
+								        </div>
+								        </div>
+
+									</div>
+							    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+            	<div class="copyright-outer-wrapper boxed-style">
+					<div class="container copyright-container">
+						<div class="copyright-wrapper">
+							<div class="copyright-left">
+								©Copyright <a href="http://software.xmu.edu.cn" target="_blank">Software School of Xiamen University</a> 						
+								</div> 
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>				
+        	</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="./js/superfish.js"></script>
+<script type="text/javascript" src="./js/supersub.js"></script>
+<script type="text/javascript" src="./js/gdl-scripts.js"></script>
+    </form>
+</body>
+</html>
